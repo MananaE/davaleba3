@@ -1,0 +1,234 @@
+a {
+    color: #3D37F1;
+}
+.header {
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    width: 1450px;
+    padding: 30px;
+    top: 30px;
+}
+.logo {
+    font-size: 32px;
+    width: 190px;
+}
+.navigation {
+    display: flex;
+    width: 596px;
+}
+.nav-li {
+    font-weight: bold;
+    font-size: 20px;
+    margin-right: 50px;
+}
+.nav-li:last-child {
+    margin-right : 0;
+}
+.section-1 {
+    display: flex;
+    width: 1450px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.right {
+    width: 600px;
+}
+.h2 {
+    font-weight: bold;
+    line-height: 109px;
+    width: 636px;
+    font-size: 78px;
+    color: #534D4D;
+}
+.mini-text {
+    width: 602px;
+    font-size: 22px;
+    margin-top: 39px;
+    margin-bottom: 84px;
+    color: #534D4D;
+}
+.blue {
+    display: flex;
+    width: 264px;
+    height: 77px;
+    background-color: #3D37F1;
+    border-radius: 38px;
+    justify-content: center;
+    align-items: center;
+}
+.span {
+    font-size: 23px;
+    color: white;
+}
+.span::before {
+    content: url(../images/waving-hand.png);
+    margin-right: 30px;
+}
+.left {
+    background-image: url(../images/undraw_pair_programming_njlp.png);
+    margin-bottom: 287px;
+    width: 800px;
+    height: 527px;
+    
+}
+/*section2*/
+.section-2 {
+    display: flex;
+    width: auto;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    background-color: #FBFCFD;
+}
+.our {
+    font-weight: bold;
+    margin-top: 85px;
+    font-size: 20px;
+}
+.best {
+    font-size: 40px;
+    margin-top: 12px;
+    margin-bottom: 20px;
+    color: #5A5454;
+}
+.quality {
+    font-size: 18px;
+    line-height: 28px;
+    color: #747474;
+}
+.block-wraper {
+    width: 1169px;
+    margin: 0 auto;
+
+}
+.middle-text-block {
+    padding-top: 85px;
+    width: 720px;
+    margin: 0 auto;
+    text-align: center;
+
+}
+.child-block {
+    width: 370px;
+    height: 451px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.child-block-h4 {
+    font-size: 22px;
+    color: #FFFFFF;
+    margin-top:  55px;
+    margin-bottom: 11px;
+}
+.child-block-p {
+    line-height: 26px;
+    width: 328px;
+    height: 62px;
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-bottom: 23px;
+    padding-left: 21px;
+    padding-right: 21px;
+}
+.child-block-div {
+    width: 131px;
+    height: 45px;
+    border-color: #FFFFFF;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 23px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.child-block-span {
+    font-size: 16px;
+    color: #FFFFFF;
+}
+.child-block:first-child {
+    background-color: #FBBA77;
+}
+.white {
+    background-color: #FFFFFF;
+}
+.black {
+    color: black;
+}
+.child-block:nth-child(2) {
+    background-color: #41EAE3;
+}
+.child-block-div:nth-child(2) {
+    border-color: #FFFFFF;
+    border-style: solid;
+    border-width: 2px;
+}
+.child-block:nth-child(3) {
+    background-color: #69529F;
+}
+.container1 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 67px;
+    margin-bottom: 60px;
+}
+
+/*cont 2*/
+.container2 {
+    display: flex;
+    justify-content: space-between;
+}
+.child-block2 {
+    width: 370px;
+    height: 451px;
+    background-color: #4386D2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.child-block2-h4 {
+    width: 140px;
+    font-size: 22px;
+    color: #FFFFFF;
+    margin-top:  55px;
+    margin-bottom: 11px;
+}
+.child-block2-p {
+    width: 328px;
+    line-height: 26px;
+    height: 62px;
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-bottom: 23px;
+    padding-left: 21px;
+    padding-right: 21px;
+}
+.child-block2-div {
+    width: 131px;
+    height: 45px;
+    border-color: #FFFFFF;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 23px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.child-block2-span {
+    font-size: 16px;
+    color: #FFFFFF;
+}
+.child-block2:nth-child(2) {
+    background-color: #A5A2F6;
+}
+
+.child-block2:nth-child(3) {
+    background-color: #FF8088;
+}
